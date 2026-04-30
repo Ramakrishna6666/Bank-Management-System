@@ -192,12 +192,11 @@
     <None Include="Resources\cardHolder.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BankDatabaseAccess\BankDatabaseAccess.csproj">
-      <Project>{83583728-a1aa-4e28-87eb-4c7fa1a9f350}</Project>
-      <Name>BankDatabaseAccess</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
+  <PackageReference Include="AWSSDK.S3" Version="3.7.300.0" />
+  <PackageReference Include="AWSSDK.SQS" Version="3.7.300.0" />
+  <PackageReference Include="AWSSDK.SimpleSystemsManagement" Version="3.7.300.0" />
+  <PackageReference Include="AWSSDK.DirectoryService" Version="3.7.300.0" />
+  <PackageReference Include="System.DirectoryServices.Protocols" Version="6.0.0" />
     <None Include="Resources\getStarted_.png" />
   </ItemGroup>
   <ItemGroup>
